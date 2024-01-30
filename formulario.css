@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html,body{
+    height: 100%;
+}
+
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form fieldset{
+    padding: 20px 40px;
+    border: 1px solid #110f0f;
+}
+
+form legend{
+    text-align: left;
+    font-size: 17px;
+    color: rgb(7, 127, 247);
+    
+}
+
+
+form input[type=text]{
+    font-family: tahoma;
+    display: inline-block;
+    margin-top:30px;
+    width: 80%;
+    padding: 10px 13px;
+    border:1px solid #161515;
+}
+
+form input[type=text]:focus, form select:focus, form textarea:focus{
+    outline: 0;
+}
+
+   
+form select{
+    font-family: tahoma;
+    color:rgb(110, 110, 110);
+    width:calc(80% + 26px);
+    margin-top:30px;
+    padding: 10px 13px;
+    display: inline-block;
+    border:1px solid #242323;
+}
+
+form h2{
+    margin-top:20px;
+    color: rgb(37, 36, 36);
+}
+
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-top:20px;
+}
+
+.input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(68, 67, 67);
+}
+
+form textarea{
+    font-family: tahoma;
+    border: 1px solid #535353;
+    margin-top:30px;
+    width: 80%;
+    height: 140px;
+    padding: 10px 13px;
+    resize: none;
+}
+
+form input[type=submit]{
+    margin-top:30px;
+    border:0;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border:1px solid #646363;
+    color:rgb(7, 127, 247);
+    background-color: rgb(199, 192, 192);
+}
+
+.botao input:hover {
+    background-color: rgb(7, 127, 247);
+    color: white;
+}
